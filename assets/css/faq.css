@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ruda', sans-serif;
+}
+.tudo {
+    width: 1500px;
+    margin: auto;
+}
+.cabeçalho{
+    height: 300px;
+}
+
+.logo1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.rs{
+    float: right;
+    margin-top: 81px;
+    margin-right: 100px;
+
+}
+a {
+    font-family: 'Ruda', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.pag {
+    background-image: url(../img/imagem-fundo-faq.png);
+    background-repeat: no-repeat;
+    height: 1340px;
+    padding: 0;
+    padding-top: 0px;
+    width: 1500px;
+}
+.logo {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sociais {
+    float: right;
+    margin-top: 84px;
+    margin-right: 50px;
+}
+.top {
+    font-size: 24px;
+    margin-top: 93px;
+    margin-right: 85px;
+    float: right;
+}
+.faq1 {
+    border: 1px solid white;
+    float: left;
+    margin-top: 10px;
+    width: 680px;
+}
+.faq2 {
+    border: 1px solid white;
+    float: right;
+    margin-top: 10px;
+    width: 670px;
+}
+#faq {
+    font-size: 40px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 30px;
+    text-align: center;
+}
+#perguntas {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.titulo {
+    font-size: 40px;
+    margin-top: 40px;
+}
+hr {
+    border: 1px solid white;
+    float: right;
+    margin-top: -30px;
+    width: 680px;
+}
+#pedidos {
+    width: 1330px;
+}
+#pagamentos {
+    width: 1250px;
+}
+#entrega {
+    width: 1320px;
+}
+#devoluçao {
+    width: 1275px;
+}
+.pergunta {
+    font-size: 32px;
+    margin-top: 30px;
+}
+.resposta {
+    font-size: 22px;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 22px;
+}
+/* RODAPÉ */
+
+.rodape{
+    color: white;
+    margin-top: 60px;
+    position: relative;
+    background-image: url(../img/imagem-fundo-rodape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+}
+
+.logo2{
+    margin-left: 650px;
+}
+
+/* TITULOS */
+
+.tit-tel{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.tit-end{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: -47px;
+    margin-left: 695px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.tit-red{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: -49px;
+    margin-left: 1100px;
+    position: relative;
+}
+
+.tit-email{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 180px;
+    margin-left: 300px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.tit-hor{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: -48px;
+    margin-left: 695px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.direitos{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;    font-weight: bold;
+}
+
+/* extras */
+
+.wpp{
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.n-wpp{
+    margin-top: 30px;
+    margin-left: 340px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+
+.tel{
+    margin-top: 65px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.n-tel{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 73px;
+    margin-left: 340px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.rua{
+    margin-top: 40px;
+    margin-left: 695px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+.img-rs{
+    margin-top: 20px;
+    margin-left: 1100px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+.email{
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+.hora{
+    margin-top: 20px;
+    margin-left: 695px;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}

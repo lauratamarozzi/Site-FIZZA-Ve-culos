@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.tudo {
+    width: 1500px;
+    margin: auto;
+}
+.cabeçalho{
+    height: 300px;
+}
+
+.logo1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.rs{
+    float: right;
+    margin-top: 81px;
+    margin-right: 55px;
+}
+a {
+    font-family: 'Ruda', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Ruda', sans-serif;
+    float: right;
+    margin-right: 60px;
+    color: white;
+    font-size: 35px;
+}
+hr{
+    float: left;
+    width: 81%;
+    margin-top: 17px;
+    border: 1px solid white;
+}
+
+.topo{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.caixa{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(50, 50, 50, 1);
+    padding-bottom: 40px;
+}
+
+.caixadif{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(50, 50, 50, 1);
+    padding-bottom: 60px;
+}
+
+h2{
+    display: inline-block;
+    font-family: 'Ruda', sans-serif;
+    color: white;
+}
+
+.titulo{
+    margin-top: 16px;
+}
+
+h1, h2{
+    font-weight: 400;
+}
+
+p{
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+}
+
+.preco, .exb, .detalhes, .detalhesdif{
+    background-color: rgba(191, 148, 27, 1);
+    padding: 3px;
+}
+
+.exb{
+    margin-left: 200px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 350px;
+}
+
+.carro{
+    float: left;
+}
+
+img{
+    padding-right: 3% ;
+}
+
+.detalhes{
+    float: right;
+    margin-right: 4px;
+    
+}
+.detalhesdif{
+    float: right;
+    margin-right: 4px;
+    margin-top: 20px;
+}
+
+.pag{
+    background-color: rgba(191, 148, 27, 1);
+    padding: 5px 30px 5px 30px;
+    margin-left: 620px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.seta1, .seta2{
+    float: right;
+}
+
+.seta1{
+    margin-top: 10px;
+}
+.seta2{
+    margin-top: 4px;
+}
+
+/* cabeçalho */
+.logo {
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.sociais {
+    float: right;
+    margin-top: 84px;
+    margin-right: 100px;
+}
+.top {
+    font-size: 24px;
+    margin-top: 93px;
+    margin-right: 85px;
+    float: right;
+    color: white;
+    font-family: 'Ruda', sans-serif;
+}
+.contato {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+
+/* rodapé */
+.rodape{
+    color: white;
+    margin-top: 200px;
+    position: relative;
+    background-image: url(../img/imagem-fundo-rodape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+}
+
+.logo2{
+    margin-left: 650px;
+}
+
+/* TITULOS */
+
+.tit-tel{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.tit-end{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: -47px;
+    margin-left: 695px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.tit-red{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: -49px;
+    margin-left: 1100px;
+    position: relative;
+}
+
+.tit-email{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 180px;
+    margin-left: 300px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.tit-hor{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: -48px;
+    margin-left: 695px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.direitos{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;    font-weight: bold;
+}
+
+/* extras */
+
+.wpp{
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.n-wpp{
+    margin-top: 30px;
+    margin-left: 340px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+
+.tel{
+    margin-top: 65px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.n-tel{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 73px;
+    margin-left: 340px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.rua{
+    margin-top: 40px;
+    margin-left: 695px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+.img-rs{
+    margin-top: 20px;
+    margin-left: 1100px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+.email{
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
+
+.hora{
+    margin-top: 20px;
+    margin-left: 695px;
+    font-family: 'Roboto Condensed', sans-serif;font-size: 18px;
+}
